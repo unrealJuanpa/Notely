@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={ <CompShowNotas/>}/>
-          <Route path='/create' element={ <CompCreateNotas/>}/>
-          <Route path='/edit/:id' element={ <CompEditNotas/>}/>
+          <Route path='/notas/create' element={ <CompCreateNotas/>}/>
+          <Route path='/notas/edit/:id' element={ <CompEditNotas/>}/>
 
         </Routes>
       </BrowserRouter>
